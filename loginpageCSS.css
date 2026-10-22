@@ -1,0 +1,174 @@
+.nav{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+    justify-content: center;
+    font-size: 25px;
+}
+
+
+.logo{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    height: 7vh;
+  
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-left: 70px;
+    -webkit-text-stroke: 1px grey;
+    color: white;
+    margin-top: 100px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+p img{
+    position: absolute;
+    right: 3vh;
+    top: 6vh;
+    height: 70px;
+    width: 70px;
+}
+
+
+
+header{
+background-color: rgb(176, 175, 175);
+border: 1px solid rgb(24, 24, 24);
+height: 15vh;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative; 
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(240, 240, 240);
+}
+
+body::before {
+  content: "";
+  position: fixed; 
+  inset: 0; 
+  background-image: url(logine.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.3; 
+  z-index: -1; 
+}
+
+.box input {
+  width: 100%;            
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  height: 5vh;}
+
+input{
+    height: 50px;
+    width: 500px;
+}
+
+input::placeholder{
+    font-size: 15px;
+}
+
+.column {
+  max-width: 400px;      
+  width: 100%;
+  margin-left: 720px;
+  margin-top: 50px;
+  background-color: rgb(200, 200, 200);
+  padding: 50px;
+  border-radius: 20px;
+
+}
+
+label{
+    font-size: 20px;
+}
+
+
+.box button {
+  width: 100%;            
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  height: 5vh;
+font-size: 20px;
+background-color: white;
+border-color: grey;
+margin-top: 25px;
+cursor: pointer;}
+
+.column input[type="checkbox"] {
+    all: revert;
+}
+footer{
+    background-color: black;
+    height: 30vh;
+    margin-top: 20vh;
+}
+
+ul{
+    color: white;
+    list-style: none;
+    font-size: 25px;
+}
+
+#desc{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+li img{
+    width: 40px;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+}
+
+#copy{
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    height: 30px;
+    margin: 0;
+    padding: 10px;
+}
+
+.cat img{
+    width: 240px;
+    position: absolute;
+    right: 9vh;
+    bottom: 5vh;
+}
+
+#tel img{
+    width: 30px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+
+
+
+
